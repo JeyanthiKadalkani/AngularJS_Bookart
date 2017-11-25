@@ -1,0 +1,27 @@
+<div id="bookListWrapper">
+  <form role="form">
+  
+  <div class="form-group">
+  <input type="text" class="form-control searchBox " placeholder="Search ur book here">
+  </div>
+  </form>
+  <br/>
+  <ul class="list-unstyled">
+  
+  <li class="book" ng-repeat="book in books" 
+  style="background: white url(Images/{{book.imgUrl}}) no-repeat">
+	  <div class="book-details clearfix">
+		<h3>Author: {{book.name}}</h3>
+		<p>Price: {{book.price}}</p>
+		<ul>
+		  <li>Rating: {{book.rating}}</li>
+		  <li>Publisher: {{book.publisher}}</li>
+		  <li>Published Date: {{book.publishedDate}}</li>
+		</ul>
+		<br/>
+		<p>{{book.details}}
+		<button class="btn btn-info pull-right" ng-click="addToKart(book)">Add To Kart</button></p>
+	  </div>
+  </li>
+  </ul>
+</div>
