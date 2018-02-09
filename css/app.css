@@ -2,9 +2,14 @@
     width: 100%;
 }
 
+.navigation {
+	font-size: 20px;
+	color: palegreen;
+}
+
 .logo {
-    padding: 1px;
-    margin-right: 10px;
+    padding: 5px 15px 15px 110px;
+    margin-right: 0px;
     font-size: 35px;
     font-family: fantasy;
 }
@@ -14,6 +19,7 @@
     margin-top: 40px;
     margin-left: -100px;
     font-family: monospace;
+	padding-top: 6px!important;
 }
 
 .nav-wrapper {

@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="plug-Ins\bootstrap.min.css">
 <link rel="stylesheet" href="css\app.css">
 
-<script src="plug-Ins\angularjs1.5.0.js"></script>
-<script src="plug-Ins\angular-route_1.5.0.js"></script>
-<script src="plug-Ins\angular-animate_1.5.0.js"></script>
+<script src="plug-Ins\angularjs1.5.0.min.js"></script>
+<script src="plug-Ins\angular-route_1.5.0.min.js"></script>
+<script src="plug-Ins\angular-animate_1.5.0.min.js"></script>
 
 <script src="app.js"></script>
 </head>
@@ -23,8 +23,8 @@
 	<span class="tagline pull-left">{{appDetails.tagline}}</span>
 	<div class="nav-wrapper pull-left">
 		<ul class="nav nav-pills">
-			<li ng-class="{active: isActive('/books')}"><a href="#/books">Book</a></li>
-	         <li ng-class="{active: isActive('/kart')}"><a href="#/kart">Kart</a></li>
+			<li ng-class="{active: isActive('/books')}"><a class ="navigation" href="#/books">Book</a></li>
+	         <li ng-class="{active: isActive('/kart')}"><a class ="navigation" href="#/kart">Kart</a></li>
 		</ul>
 	</div>
 	

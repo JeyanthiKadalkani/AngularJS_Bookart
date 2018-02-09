@@ -60,7 +60,7 @@ myApp.factory("bookService",function()
       price:"222",
       rating:"4",
       details:"Details playing",
-	  publisher: "QQQ",
+	    publisher: "QQQ",
       publishedDate:"2011/4/3"
     },
     {
@@ -69,7 +69,7 @@ myApp.factory("bookService",function()
       price:"111",
       rating:"4",
       details:"Details adultery",
-	  publisher: "QQQ",
+	    publisher: "QQQ",
       publishedDate:"2011/3/3"
     },
     {
@@ -78,7 +78,7 @@ myApp.factory("bookService",function()
       price:"333",
       rating:"3",
       details:"Details geronimo",
-	  publisher: "PPP",
+	    publisher: "PPP",
       publishedDate:"2011/2/3"
     },
     {
@@ -86,7 +86,7 @@ myApp.factory("bookService",function()
       name:"The-Fault Yazhini",
       price:"999",
       rating:"4",
-	  publisher: "QQQ",
+	    publisher: "QQQ",
       details:"Details the-fault",
       publishedDate:"2011/1/3"
     },
@@ -95,7 +95,7 @@ myApp.factory("bookService",function()
       name:"Wings-Of-Fire",
       price:"777",
       rating:"5",
-	  publisher: "FFF",
+	    publisher: "FFF",
       details:"Details wings-of-fire",
       publishedDate:"2011/12/3"
     }
